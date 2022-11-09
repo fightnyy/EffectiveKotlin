@@ -20,6 +20,9 @@ infix fun Int.timeRepeated(operation: () -> Unit) = {
     repeat(this) { operation() }
 }
 
+fun keyIsCorrect(key: String): Boolean = //
+    true
+
 fun main(args: Array<String>) {
     print(10 * !6)
     val plus = 1.plus(2)
